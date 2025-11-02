@@ -8,10 +8,11 @@ Automated acceptance tests for the [Hacker News public API](https://github.com/H
 -  Retrieve a top story’s first comment
 -  Some other edge cases 
 
-## ▶️ Run Locally
+## ▶️ Run Locally  (require Python3.10 or above)
 ```bash
 
-cloen this repo 
+clone this repo 
+python3 -m venv venv
 source venv/bin/activate    
 pip install -r requirements.txt
 pytest
